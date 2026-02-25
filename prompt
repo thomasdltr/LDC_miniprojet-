@@ -1,1 +1,16 @@
-
+Tu travailles dans le domaine de l’organisation de compétitions sportives de football. Ton organisation a comme activité de gérer une compétition de clubs : inscription des équipes, gestion des joueurs appartenant aux équipes, organisation des éditions et des phases, gestion des groupes, planification des matchs, gestion des stades, enregistrement des résultats et production des classements.
+C’est une organisation comme l’UEFA (Ligue des Champions), une ligue sportive professionnelle ou une fédération de football organisant une compétition officielle.
+Les données ont été collectées à partir :
+de l’observation du fonctionnement général d’une compétition de football,
+de l’analyse de calendriers et de résultats de matchs,
+de la consultation d’exemples de fiches de matchs (équipes, scores, dates, stades),
+de l’étude des règles classiques de classement en phase de groupes,
+de l’analyse de sites de résultats sportifs.
+Inspire-toi :
+du site officiel de l’UEFA Champions League,
+de la page Wikipédia « Ligue des champions de l’UEFA »,
+et de sites de résultats sportifs comme LiveScore ou Flashscore.
+Ton organisation veut appliquer MERISE pour concevoir un système d'information. Tu es chargé de la partie analyse, c’est-à-dire de collecter les besoins auprès de l’entreprise. Elle a fait appel à un étudiant en ingénierie informatique pour réaliser ce projet, tu dois lui fournir les informations nécessaires pour qu’il applique ensuite lui-même les étapes suivantes de conception et développement de la base de données. 
+D’abord, établis les règles de gestions des données de ton organisation, sous la forme d'une liste à puce. Elle doit correspondre aux informations que fournit quelqu’un qui connaît le fonctionnement de l’entreprise, mais pas comment se construit un système d’information.
+Ensuite, à partir de ces règles, fournis un dictionnaire de données brutes avec les colonnes suivantes, regroupées dans un tableau : signification de la donnée, type, taille en nombre de caractères ou de chiffres. Il doit y avoir entre 25 et 35 données. Il sert à fournir des informations supplémentaires sur chaque donnée (taille et type) mais sans a priori sur comment les données vont être modélisées ensuite.
+Fournis donc les règles de gestion et le dictionnaire de données.
