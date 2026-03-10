@@ -87,3 +87,46 @@ Le modèle logique de données obtenu à partir du MCD est le suivant :
 - Affecte(#id_groupe, #id_equipe)
 - Joue(#id_joueur, #id_match)
 - Capitaine(#id_equipe, #id_joueur)
+
+
+
+
+
+
+
+
+
+
+
+
+Question partie 2 5ème étape 
+
+
+La base de données est utilisée par un responsable de compétition dans une organisation qui gère un tournoi de 
+football de type Ligue des Champions.
+Son rôle est de suivre les équipes inscrites, les joueurs, les stades, les matchs programmés ou joués, ainsi que 
+les groupes et les phases de la compétition.
+Les informations qu’il souhaite extraire sont par exemple :
+
+la liste des équipes participantes et leur pays ;
+les joueurs d’une équipe donnée, avec leur poste et leur numéro ;
+les matchs prévus ou terminés, classés par date ;
+les stades ayant une capacité importante ;
+les statistiques par équipe, par phase ou par stade ;
+les équipes inscrites mais non encore affectées à un groupe ;
+les équipes ayant joué au moins un match ;
+les joueurs capitaines ;
+les matchs ayant le plus ou le moins de buts ;
+les phases, groupes et éditions concernées par les rencontres.
+Les requêtes SQL ci-dessous correspondent donc à un usage concret de consultation et d’analyse de la compétition 
+par un gestionnaire sportif.
+
+
+
+
+
+
+
+
+
+
