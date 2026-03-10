@@ -26,3 +26,39 @@ dans un tableau : signification de la donnée, type, taille en nombre de caract�
 entre 25 et 35 données. Il sert à fournir des informations supplémentaires sur chaque donnée (taille et type) mais 
 sans a priori sur comment les données vont être modélisées ensuite.
 Fournis donc les règles de gestion et le dictionnaire de données.
+
+
+Question prompt partie 2 4ème étape 
+
+Génère des données SQL pour remplir une base de données représentant une compétition de football.
+
+La base contient les tables suivantes :
+
+* Edition(id_edition, saison)
+* Phase(id_phase, nom_phase, ordre_phase, id_edition)
+* Groupe(id_groupe, code_groupe, id_phase)
+* Equipe(id_equipe, nom_equipe, pays_equipe)
+* Joueur(id_joueur, nom_joueur, poste, numero_joueur, id_equipe)
+* Stade(id_stade, nom_stade, ville_stade, capacite_stade)
+* Rencontre(id_match, date_match, heure_match, statut_match, score_dom, score_ext, id_stade, id_phase, id_equipe_dom, id_equipe_ext)
+* Inscrit(id_edition, id_equipe)
+* Affecte(id_groupe, id_equipe)
+* Joue(id_joueur, id_match)
+* Capitaine(id_equipe, id_joueur)
+
+Contraintes à respecter :
+
+* score_dom et score_ext ≥ 0
+* numero_joueur entre 1 et 99
+* poste ∈ {Gardien, Defenseur, Milieu, Attaquant}
+* statut_match ∈ {prevu, en cours, termine, reporte, annule}
+
+Générer un nombre conséquent de données réalistes :
+
+* plusieurs équipes européennes
+* plusieurs joueurs par équipe
+* plusieurs matchs
+* plusieurs stades
+* plusieurs groupes et phases
+
+Les résultats doivent être uniquement des requêtes SQL INSERT INTO compatibles avec MySQL.
