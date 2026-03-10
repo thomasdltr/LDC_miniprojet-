@@ -69,3 +69,21 @@ DICTIONNAIRE DE DONNÉES BRUTES
 
 
 <img width="955" height="1305" alt="image" src="https://github.com/user-attachments/assets/8ac2109b-a068-4d4d-95c4-a6c464de0ecf" />
+
+
+
+
+
+Le modèle logique de données obtenu à partir du MCD est le suivant :
+
+- Edition(id_edition, saison)
+- Phase(id_phase, nom_phase, ordre_phase, #id_edition)
+- Groupe(id_groupe, code_groupe, #id_phase)
+- Equipe(id_equipe, nom_equipe, pays_equipe)
+- Joueur(id_joueur, nom_joueur, poste, numero_joueur, #id_equipe)
+- Stade(id_stade, nom_stade, ville_stade, capacite_stade)
+- Match(id_match, date_match, heure_match, statut_match, score_dom, score_ext, #id_stade, #id_phase, #id_equipe_dom, #id_equipe_ext)
+- Inscrit(#id_edition, #id_equipe)
+- Affecte(#id_groupe, #id_equipe)
+- Joue(#id_joueur, #id_match)
+- Capitaine(#id_equipe, #id_joueur)
